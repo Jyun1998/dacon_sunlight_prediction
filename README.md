@@ -6,3 +6,10 @@ Predicting solar power generation utilizing regional weather data and historical
 
 ## Expected Effect
  Utilizing power consumption forecast data given time zone for efficient solar power generation and optimized supply plan
+
+ ## Method
+ ### EDA
+ ### Modeling & Tuning
+ Model selected : ExtraTreesRegressor, ElasticNet, RandomForestRegressor, Lasso
+ Hypter-parameter tuning: hyperopt
+ Ensembling : sklearn.ensemble.StackingRegressor with 5-fold and final modelling with RF
